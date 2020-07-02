@@ -1,0 +1,54 @@
+@media(max-width: 1200px){
+    main{
+        margin-bottom: 30px;
+    }
+
+
+    #page-home{
+        background-position-x:80vw ;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main{
+        align-items: center;
+    }
+
+    #page-search-result .cards{
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-result .cards img{
+        height: 200px;
+    }
+
+    #page-search-result .cards {
+        text-align: center;
+    }
+
+}
+
+@media(min-width: 1700px){
+    #page-home{
+        background-position-x:40vw ;
+    }
+}
+
+@media(max-height: 700px){
+    #page-home{
+        background-position-y:40px;
+    }
+}
+
+

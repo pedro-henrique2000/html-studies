@@ -1,0 +1,20 @@
+/* Estrutura Padrão */
+
+body{
+    background: #f4f2ec url("../img/fundo.png") repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+
+/* Logo 
+------------------------------------------------------------------ */
+#logo a{
+    width: 248px;
+    height: 21px;
+}
