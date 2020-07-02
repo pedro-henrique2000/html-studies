@@ -23,6 +23,12 @@ a:hover{
 
 /* Logo 
 ------------------------------------------------------------------ */
+#logo h1{
+    float: left;
+    /* border: 1px solid red; */
+}
+
+
 #logo a{
     width: 248px;
     height: 21px;
@@ -37,6 +43,7 @@ Barra de Nevagção
 header{
     padding: 15px 0;
     height: 55px;
+    /* border: 1px solid red; */
 }
 nav ul{
     list-style: none;
@@ -59,3 +66,85 @@ nav ul li a:link{
 nav ul li a:hover{
     border-bottom: 1px solid #535858;
 }
+
+/* 
+Principal
+---------------------------------------------------- */
+#conteudo{
+    width: 710px;
+    /* background: green; */
+    float: left;
+}
+
+aside{
+    width: 350px;
+    background-color: #ebe7dd;
+    float: right;
+    padding-bottom: 30px;
+}
+
+section#visita{
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+h4{
+    color: #82521a;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+
+section#galeria a{
+    display: block;
+    background: url("../img/fundo-foto.png") no-repeat;
+    /* border: 1px solid red; */
+    float: left;
+    padding: 17px 15px 18px 15px;
+    margin: 10px 0 0 20px ;
+}
+
+section#galeria img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+
+section#galeria{
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+
+/* 
+Formularios
+---------------------------------------------------- */
+input{
+    height: 20px;
+    width: 80px;
+    border: none;
+    background-color: white;
+    font-size: 1em;
+}
+
+input.campo{
+    border: 1px solid #ada484;
+}
+
+fieldset{
+    border: none;
+}
+
+section form .botao{
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    color: white;
+    background: #9b9271;
+    border: none;
+}
+
+legend{
+    display: none;
+}
+
