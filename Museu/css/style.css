@@ -20,7 +20,6 @@ a:hover{
     color: #227115;
 }
 
-
 /* Logo 
 ------------------------------------------------------------------ */
 #logo h1{
@@ -74,6 +73,7 @@ Principal
     width: 710px;
     /* background: green; */
     float: left;
+    margin-bottom: 20px;
 }
 
 aside{
@@ -81,12 +81,20 @@ aside{
     background-color: #ebe7dd;
     float: right;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 section#visita{
     background-color: #cdc8b1;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
+}
+
+h3{
+    font-size: 1.0em;
+    color: #227115;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 h4{
@@ -114,6 +122,31 @@ section#galeria{
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
 }
+
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 27px;
+}
+
+article#artigos{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
+}
+
 
 
 /* 
@@ -148,3 +181,16 @@ legend{
     display: none;
 }
 
+/* rodape
+-------------------------------- */
+footer{
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url("../img/fundo-rodape.png") no-repeat center top;
+    
+}
+
+footer>p a{
+    margin-left: 5px;
+}
