@@ -6,28 +6,59 @@
 /* 
     row|row-reverse|column|column-reverse|initial|inherit; 
 */
-    flex-direction: row;
+
+    /* flex-direction: row; */
 
     /* flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit; */
 
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
 
     /* justify-content: flex-start|flex-end|center|space-between|space-around|initial|inherit;
      */
 
-     justify-content: space-around;
+     /* justify-content: space-around; */
 
      /* align-items: stretch|center|flex-start|flex-end|baseline|initial|inherit;*/
 
-     align-items: center;
+     /* align-items: center; */
 }
 
 .item{
     border: 1px solid gray;
-    display: flex;
+    background-color: white;
+    /* display: flex; */
     width: 100px;
     height: 100px;
     margin: 10px;
     justify-content: center;
     align-items: center;
+    flex-grow: 0;
+}
+
+.item1{
+    flex-grow: 1;
+}
+
+.item2{
+    flex-grow: 2;
+}
+
+.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+
+.ordem3{
+    order: 3;
+}
+
+.ordem4{
+    order: 4;
+}
+
+.ordem5{
+    order: 5;
 }
