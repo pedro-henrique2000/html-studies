@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BorderRadius e BoxSizing</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+    <style>
+        #caixa {
+            width: 300px;
+            height: 300px;
+            background-color: #b9c941;
+            padding: 50px;
+            box-sizing: border-box;
+            /* border-radius: 20px 90px;
+            -moz-border-radius: 20px 90px; */
+        }
+
+        #caixa2 {
+            width: 300px;
+            height: 300px;
+            background-color: #b9c941;
+            /* border-radius: 20px 90px;
+            -moz-border-radius: 20px 90px; */
+        }
+
+        #conteudo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .perfil {
+            border-radius: 10px 50px 80px 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="caixa">
+        <div id="conteudo">
+            <h1>Título da Caixa</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's.
+            </p>
+        </div>
+        <!-- <img src="img/perfil.jpg" alt="" width="300" height="300" class="perfil"> -->
+    </div>
+
+    <br>
+
+    <div id="caixa2">
+        <div id="conteudo">
+            <h1>Título da Caixa</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's.
+            </p>
+        </div>
+        <!-- <img src="img/perfil.jpg" alt="" width="300" height="300" class="perfil"> -->
+    </div>
+
+
+
+</body>
+
+</html>
