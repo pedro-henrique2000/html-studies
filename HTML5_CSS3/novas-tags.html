@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novas tags</title>
+
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #conteudo {
+            display: flex;
+        }
+
+        header {
+            display: flex;
+            background: pink;
+            padding: 5px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav ul li {
+            float: left;
+            margin-right: 5px;
+            list-style: none;
+        }
+
+        article {
+            width: 75%;
+            background: orange;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        section {
+            background: gray;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        aside {
+            display: flex;
+            justify-content: start;
+            background-color: purple;
+            align-items: center;
+            padding: 10px;
+            width: 25%;
+            flex-direction: column;
+        }
+
+        footer {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+            <h1>Logo</h1>
+            <span>Site</span>
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <div id="conteudo">
+            <article>
+                <h1>Novos Cursos</h1>
+                <section>
+                    <h3>Curso de programação</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s</p>
+                </section>
+
+                <section>
+                    <h3>Curso de photoshop</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s</p>
+                </section>
+            </article>
+
+            <aside>
+                <h3>Sobre o autor</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s</p>
+            </aside>
+        </div>
+
+        <footer>
+            &copy -Pedro Henrique (2020)
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>
